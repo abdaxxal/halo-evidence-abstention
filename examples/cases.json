@@ -1,0 +1,6 @@
+[
+  {"id":"route-visible","pair_id":"route","question":"Which gate does shuttle D4 use?","evidence":"D4 serves the north lot. D4 departs from Cedar Gate.","answers":["Cedar Gate"]},
+  {"id":"route-removed","pair_id":"route","question":"Which gate does shuttle D4 use?","evidence":"D4 serves the north lot.","answers":[]},
+  {"id":"file-visible","pair_id":"file","question":"What status is recorded for file N27?","evidence":"File N27 arrived Tuesday. N27 is marked pending. File N28 is marked approved.","answers":["pending"]},
+  {"id":"file-removed","pair_id":"file","question":"What status is recorded for file N27?","evidence":"File N27 arrived Tuesday. File N28 is marked approved.","answers":[]}
+]

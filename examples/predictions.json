@@ -1,0 +1,6 @@
+[
+  {"id":"route-visible","candidate":"Cedar Gate","confidence":0.95},
+  {"id":"route-removed","candidate":"Cedar Gate","confidence":0.15},
+  {"id":"file-visible","candidate":"pending","confidence":0.90},
+  {"id":"file-removed","candidate":"approved","confidence":0.85}
+]
