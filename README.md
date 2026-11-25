@@ -21,6 +21,7 @@ The examples deliberately include a wrong, high-confidence answer borrowed from 
 
 ## Planned experiment
 
+- For valid outputs, the planned GRPO reward is `r = y - (p - y)^2`, where `y = 1` only if the candidate is correct and supported by the supplied evidence, and `p` is its reported probability of meeting that criterion. The abstention threshold is applied separately.
 - Split by document family and template; keep each pair together. Use a development split to set decision thresholds.
 - Compare the same starting model with thresholding, correctness-only GRPO, and calibration-aware GRPO using the same evaluation protocol and matched training budgets where applicable.
 - Report wrong answers at matched coverage, false answers on unanswerable cases, and Brier loss on all valid candidates. Report invalid-output rates separately, including failures in the total case denominator. Include paired uncertainty intervals and raw answerable accuracy.
